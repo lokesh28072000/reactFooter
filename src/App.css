@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,83 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+*{
+margin: 0;
+padding: 0;
+}
+
+.body{
+  height: 700px;
+  background-color: rgb(83, 83, 235);
+}
+.footer{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+
+
+.footer1 li{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 5px;
+  list-style-type: none;
+  color: rgb(0, 0, 0);
+ 
+}
+
+.footer1 h3{
+  margin-left: 100px;
+  margin-top: 60px;
+  color: rgb(243, 1, 1);
+
+}
+.footer1 a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.footer2 a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.footer2 ul li {
+  display:flex;
+  flex-direction: column;
+  margin-left: 100px;
+  justify-content: end;
+  margin-top: 5px;
+  list-style-type: none;
+  color: rgb(0, 0, 0);
+ 
+}
+
+.footer2 h3{
+  margin-left: 70px;
+  margin-top: 60px;
+  color: rgb(243, 1, 1);
+}
+
+.footer-below{
+  display: flex;
+  margin-top: 40px;
+}
+
+.footer-below h5{
+  margin-left: 240px;
+  color: red;
+}
+
+.footer-below h4{
+  margin-left: 100px;
+}
+
+.footer2 img{
+  width: 25px;
+  height: auto;
+  position: absolute;
+  margin-left:-29px;
 }
